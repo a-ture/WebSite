@@ -9,6 +9,7 @@ import { SkillsComponent } from './componets/skills/skills.component';
 import { WorkExperienceComponent } from './componets/work-experience/work-experience.component';
 import { ProjectComponent } from './componets/project/project.component';
 import { ContactComponent } from './componets/contact/contact.component';
+import { ResponsiveDirective } from './directive/responsive.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ContactComponent } from './componets/contact/contact.component';
     SkillsComponent,
     WorkExperienceComponent,
     ProjectComponent,
-    ContactComponent
+    ContactComponent,
+    ResponsiveDirective
   ],
   imports: [
     BrowserModule
