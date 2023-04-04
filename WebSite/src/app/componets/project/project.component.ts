@@ -10,29 +10,31 @@ export class ProjectComponent implements OnInit {
 
   projects: Project[] = [
     {
-      title: 'Google Cloud, Gmail, Google Maps',
-      technologies: 'Cloud Compounting, Angular, Angular Material',
+      title: 'WoodLot',
+      technologies: 'Angular, SpringBoot',
       description: [
-        'Worked as a team lead to develop apps that are powered by Cloud.',
-        'Built the services of Google Map that can be used by third party apps to get data.',
-        'Was part of team to expand the google drive.',
+        "WoodLot è un e-commerce per l'acquisto simbolico di un albero. Gli utenti possono acquistare (comprendo così i " +
+        "costi iniziali dela piantumazione ) un albero che" +
+        " verrà piantato da un contadino, che potrà godere dei suoi frutti. Gli alberi sono assegnati ai contadini tramite " +
+        "un algoritmo di intelligenza artificiale (realizzato per il corso di Fondamenti di Intelligenza Artificiale)",
+        "Progetto realizzato per il corso di Ingegneria del Software nell'anno accademico A.A 2022/2023.",
+        "Grazie a questo progetto ho imparato la gestione delle scadenze e l'importanza della documentazione"
       ],
     },
     {
-      title: 'ChromeOS',
-      technologies: 'C, C++',
+      title: 'WoodLot-TSW',
+      technologies: 'Servlet, JSP',
       description: [
-        'Worked as a team lead to build ChromeOS',
-        'Got to learn about linux kernel',
-        'Learned C, C++ to build an O.S.',
+        "Progetto realizzato per il corso di Tecnologie Software per il Web nell'anno accademico A.A 2022/2023.",
+        'WoodLot è un e-commerce per l\'acquisto simbolico di un albero',
+        'Grazie a questo progetto ho imparato a lavorare in gruppo.',
       ],
     },
     {
-      title: 'Google Toolbar',
-      technologies: 'HTML, CSS, JS, C#',
+      title: 'EvoDoodle',
+      technologies: 'Three.js',
       description: [
-        'Worked on Google Toolbar, to include the google search engine in Internet Explorer',
-        'Learned multiple technologies to build the product.',
+        '',
       ],
     },
   ];
